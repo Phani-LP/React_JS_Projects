@@ -2,11 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 // import HelloWorld from "./HelloWorld";
 // import CounterAPP from "./App1"
-import "./index.css";
-
 // import SimpleForms from './SimpleForms'
 // import ToDoListApp from './ToDoList'
-import RandomQuoteGenerator from './RandomQuoteGenerator'
+import "./index.css";
+import RandomQuoteGeneratorApp from "./randomQuoteGeneratorApp";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -15,6 +14,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <CounterAPP/> */}
     {/* <SimpleForms/> */}
     {/* <ToDoListApp/> */}
-    <RandomQuoteGenerator/>
+    <RandomQuoteGeneratorApp/>
   </React.StrictMode>
 );
