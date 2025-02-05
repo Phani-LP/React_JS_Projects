@@ -5,7 +5,8 @@ import ReactDOM from "react-dom/client";
 // import SimpleForms from './SimpleForms'
 // import ToDoListApp from './ToDoList'
 import "./index.css";
-import RandomQuoteGeneratorApp from "./randomQuoteGeneratorApp";
+// import RandomQuoteGeneratorApp from "./randomQuoteGeneratorApp";
+import SimpleCalculator from './simplecalculator'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <CounterAPP/> */}
     {/* <SimpleForms/> */}
     {/* <ToDoListApp/> */}
-    <RandomQuoteGeneratorApp/>
+    {/* <RandomQuoteGeneratorApp/> */}
+    <SimpleCalculator/>
   </React.StrictMode>
 );
