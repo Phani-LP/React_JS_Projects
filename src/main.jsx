@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import "./index.css";
 // import HelloWorld from "./HelloWorld";
 // import CounterAPP from "./App1"
 // import SimpleForms from './SimpleForms'
 // import ToDoListApp from './ToDoList'
-import "./index.css";
 // import RandomQuoteGeneratorApp from "./randomQuoteGeneratorApp";
-import SimpleCalculator from './simplecalculator'
+// import SimpleCalculator from './simplecalculator'
+import DisplayWeather from './weatherApp'
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <SimpleForms/> */}
     {/* <ToDoListApp/> */}
     {/* <RandomQuoteGeneratorApp/> */}
-    <SimpleCalculator/>
+    {/* <SimpleCalculator/> */}
+    <DisplayWeather/>
   </React.StrictMode>
 );
