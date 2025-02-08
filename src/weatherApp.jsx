@@ -5,7 +5,7 @@ const WeatherApp = () => {
   const [location, setLocation] = useState("");
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState("");
-
+ 
   const API_KEY = "f9e40c1b06127e3c1b87cbc7d24b43f2"; // Replace with your API key
   const API_URL = `https://api.openweathermap.org/data/2.5/weather`;
 

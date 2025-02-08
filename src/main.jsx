@@ -6,8 +6,9 @@ import "./index.css";
 // import SimpleForms from './SimpleForms'
 // import ToDoListApp from './ToDoList'
 // import RandomQuoteGeneratorApp from "./randomQuoteGeneratorApp";
-// import SimpleCalculator from './simplecalculator'
-import DisplayWeather from './weatherApp'
+// import SimpleCalculator from './simplecalculator';
+// import DisplayWeather from './weatherApp';
+import RockPaperScissors from './Game';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     {/* <ToDoListApp/> */}
     {/* <RandomQuoteGeneratorApp/> */}
     {/* <SimpleCalculator/> */}
-    <DisplayWeather/>
+    {/* <DisplayWeather/> */}
+    <RockPaperScissors/>
   </React.StrictMode>
 );
